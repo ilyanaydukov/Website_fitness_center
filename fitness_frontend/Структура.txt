@@ -1,0 +1,51 @@
+fitness-center-frontend/
+├── public/
+│   └── index.html+
+├── src/
+│   ├── assets/
+│   │   ├── logo.png
+│   │   └── styles/
+│   │       └── main.css+
+│   ├── components/
+│   │   ├── common/
+│   │   │   ├── Navbar.vue+
+│   │   │   ├── Footer.vue+
+│   │   │   └── Loader.vue+
+│   │   ├── auth/
+│   │   │   ├── Login.vue+
+│   │   │   └── Register.vue+
+│   │   ├── client/
+│   │   │   ├── Dashboard.vue+
+│   │   │   ├── Profile.vue+
+│   │   │   ├── FitnessCenters.vue+
+│   │   │   ├── Services.vue+
+│   │   │   ├── Subscriptions.vue+
+│   │   │   ├── Schedule.vue+
+│   │   │   ├── WorkoutRegistration.vue+
+│   │   │   └── FeedbackForm.vue+
+│   │   └── admin/
+│   │       ├── AdminDashboard.vue+
+│   │       ├── WorkoutManagement.vue+
+│   │       ├── TrainerManagement.vue+
+│   │       ├── ServiceManagement.vue+
+│   │       ├── SubscriptionManagement.vue+
+│   │       └── ReportGeneration.vue+
+│   ├── views/
+│   │   ├── Home.vue+
+│   │   ├── About.vue+
+│   │   └── NotFound.vue+
+│   ├── router/
+│   │   └── index.js+
+│   ├── store/
+│   │   └── index.js
+│   ├── services/
+│   │   ├── api.js+
+│   │   ├── auth.js+
+│   │   └── pdfService.js+
+│   ├── App.vue+
+│   └── main.js+
+├── .env
+├── .gitignore
+├── package.json
+├── vite.config.js
+└── README.md
